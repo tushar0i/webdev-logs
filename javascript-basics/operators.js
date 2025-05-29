@@ -79,5 +79,32 @@ console.log(myArray == myArray2);// false in both == and ===
 
 // Ternary Operator
 // if true then print value match if false then print value do not match
-const trueOrFalse = 20 === 20 ? 'value match': 'values do not match';
+const trueOrFalse = 20 === '20' ? 'value match': 'values do not match';
 console.log(trueOrFalse);
+
+
+// Logical Operators 
+
+// And(&&) Or(||) Not(!)
+
+console.log(10 == 10 && 21 == 20 );// both sides should be true to be true;
+
+console.log(10 == 11 || 20 == 20);// one of the two sides should be true to be true;
+
+console.log(!(9==10));// ! reverse the output like true to false or false to true;
+
+// Combining the operators 
+
+const comOpResult = !(((40/20)=== 2 && true ) || ('yes' ==='no')); // code must be readable this is not 
+console.log(comOpResult);
+
+
+// this is readable;
+const step1 = 40/20;
+const step2 = step1 === 2;
+const step3 = step2 && true;
+const step4 = 'yes' === 'no';
+const step5 = step3 || step4;
+const step6 = !(step5);
+console.log(step6);
+
