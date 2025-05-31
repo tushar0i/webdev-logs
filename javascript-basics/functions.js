@@ -56,3 +56,56 @@ const returnFunction = () =>{
 const resultReturn = returnFunction();
 
 console.log(resultReturn);
+
+
+const exampleValue = 20;
+
+let myFunction3  = () =>{
+
+    if(exampleValue < 25){
+        return 'we are returning the function early!';
+    }
+    return 40;
+}
+
+const resultExValue = myFunction3();
+
+console.log(resultExValue);
+
+
+// Object"methods"
+
+function myFunction4(){
+    return 29;
+
+}
+
+const someVariable = myFunction4;
+console.log(someVariable());
+
+
+const myObject = {
+    prop1 : 30,
+    prop2 : myFunction4 // -> this is called a object method
+}
+
+console.log(myObject.prop2());
+
+// Some build in JS function
+
+const myString = 'tusher';
+
+console.log(myString.replace('e','a')); // it didn't change the orignal value
+
+const newName = myString.replace('e','a');
+
+console.log(newName);
+
+console.log(myString.toUpperCase());
+
+// we can stack the methods like a chain
+
+var exampleString = 'hello the world of JS!';
+console.log(exampleString.toUpperCase().split(' '));
+
+// https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm we can us thios website to see other method in JS
