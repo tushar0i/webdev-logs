@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name attribute</title>
+</head>
+
+<body>
+    <form action="/action">
+        <div>
+            <label for="user">Username : </label>
+            <input type="text" name="user" id="user" placeholder="enter username">
+        </div>
+        <div>
+            <label for="key">Password : </label>
+            <input type="password" name="key" id="key" placeholder="enter password">
+        </div>
+        <button>Submit</button>
+        <!-- http://127.0.0.1:3000/action?user=thing&key=nothing this is very unsafe -->
+    </form>
+</body>
+</html>
