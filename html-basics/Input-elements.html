@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Elements</title>
+</head>
+
+<body>
+    <form action="/action">
+
+        <div>
+            <input type="checkbox" name="age" id="18+" checked>
+            <label for="18+">Are you 18+</label>
+
+            <!-- passes on when checked nothing when uncheck -->
+        </div>
+
+        <div>
+            <input type="radio" name="cart" id="item1" value="item1">
+            <label for="item1">shirt</label>
+
+            <input type="radio" name="cart" id="item2" value="item2">
+            <label for="item2">pant</label>
+            <input type="radio" name="cart" id="item3" value="item3">
+            <label for="item3">shoes</label>
+            <!-- when we just need to pass one thing we use the same name in all of the for example yes no gender when we need to multi select we use diff names  -->
+        </div>
+
+        <div>
+            <label for="">Select subjects</label>
+            <input type="checkbox" name="sub" id="eng" value="eng">
+            <label for="eng">English</label>
+            <input type="checkbox" name="sub" id="math" value="math">
+            <label for="math">Mathematics</label>
+            <input type="checkbox" name="sub" id="ct" value="ct">
+            <label for="ct">Computational thinking</label>
+            <input type="checkbox" name="sub" id="stat" value="stat">
+            <label for="stat">Statistics</label>
+        </div>
+
+        <div>
+            Choose your educational qualification
+            <select name="eduquali" id="quali">
+                <option value="">select</option>
+                <option value="10th" selected>10th</option>
+                <option value="12th">12th</option>
+                <option value="bach">Bachlors</option>
+                <option value="mast">Masters</option>
+                <option value="phd">P.hd</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="volume">volume level preference</label>
+            <input type="range" name="vol" id="volume" min="0" max="100" step="5" value="25">
+        </div>
+
+        <div>
+            <label for="feedback">Enter your feedback</label>
+            <textarea rows="1" cols="30" placeholder="write your feedback here" name="fb" id="feedback"></textarea>
+        </div>
+        
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>
