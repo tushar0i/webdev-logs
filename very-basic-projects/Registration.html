@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestration form template</title>
+</head>
+
+<body>
+    <h2>New user regestration</h2>
+    <form action="/action">
+
+        <Div>
+            <label for="name">Name : </label>
+            <input type="text" id="name" name="user">
+        </Div>
+        <br>
+        <Div>
+            <label for="age">Age : </label>
+            <input type="number" id="age" name="age">
+        </Div>
+        <br>
+        <Div>
+            <label for="gen">Gender : </label>
+            <input type="radio" name="gen" id="m" value="m">
+            <label for="m">Male</label>
+            <input type="radio" name="gen" id="f" value="f">
+            <label for="f">Female</label>
+            <input type="radio" name="gen" id="o" value="o">
+            <label for="o">Other</label>
+        </Div>
+        <br>
+        <Div>
+            <label for="country">Country : </label>
+            <select name="ctry" id="country">
+                <option value="">select</option>
+                <option value="ind">India</option>
+                <option value="btn">Bhutan</option>
+                <option value="chi">China</option>
+                <option value="npl">Nepal</option>
+                <option value="slk">Sri.Lanka</option>
+                <option value="usa">U.S.A</option>
+                <option value="oth">Other</option>
+            </select>
+        </Div>
+        <br>
+        <Div>
+            <label for="quali">Educational qualification : </label>
+            <select name="eduquali" id="quali">
+                <option value="">select</option>
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="bach">Bachlors</option>
+                <option value="mast">Masters</option>
+                <option value="phd">P.hd</option>
+            </select>
+        </Div>
+        <br>
+        <Div>
+            <label for="msg">Self-declaration message : </label>
+            <div>
+            </div>
+            <textarea name="msg" id="msg" rows="3" cols="30" placeholder="I hearby decleare that ..."></textarea>
+        </Div>
+        <br>
+        <Div>
+            <input type="checkbox" name="t&c" id="t&c">
+            <label for="t&c">Agree terms & conditions</label>
+        </Div>
+        <br>
+        <Div>
+            <button>Submit</button>
+        </Div>
+        <br>
+    </form>
+    
+    <!-- http://127.0.0.1:3000/action?user=Tushar+Thakur&age=19&gen=m&ctry=ind&eduquali=bach&msg=I+hereby+declare+that+all+the+information+provided+above+is+true+and+correct+to+the+best+of+my+knowledge+and+belief.+I+understand+that+any+misrepresentation+or+omission+may+lead+to+disqualification+or+legal+action.&t%26c=on -->
+
+</body>
+
+</html>
