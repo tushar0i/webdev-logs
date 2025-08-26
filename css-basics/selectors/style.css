@@ -1,0 +1,52 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 , h3 {
+    color: brown;
+}
+#login{
+    background-color: rgb(255, 255, 255);
+}
+#signup{
+    background-color: brown;
+    color: white;
+}
+.upvote{
+    color: white;
+    background-color: rgb(51, 168, 51);
+}
+.post a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(216, 216, 90);
+}
+nav a{
+    color: rgb(0, 110, 77);
+}
+p + h3{
+    text-decoration:gray double underline;
+}
+.upvote + button{
+    background-color: rgb(127, 182, 255);
+}
+div > input{
+    background-color: rgba(152, 176, 221, 0.548);
+}
+input[type="text"]{
+    color: brown;
+}
+input[type="password"]{
+    color: gold;
+}
+h3:hover {
+    text-decoration: black double underline;
+    color: rgb(196, 50, 50);
+}
+.upvote:hover{
+    background-color: rgb(38, 40, 41);
+    color: rgb(0, 255, 0);
+}
+button:hover{
+    color: rgb(29, 153, 255);
+    background-color: rgb(38, 40, 41);
+}
