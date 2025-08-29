@@ -1,0 +1,8 @@
+h3{
+    background-color: beige;
+}
+/*
+specificity 
+in-line > id > class, attributs & pesudo-class > elements & pesudo-elements
+and when specificity is same the we see 
+cascading whatever is declared last will apply */

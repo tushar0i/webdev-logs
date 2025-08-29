@@ -99,3 +99,15 @@ font-weight: bold;
 text-decoration:overline;
 color: brown;
 }
+
+h1::first-letter{
+    color: rgb(0, 0, 0);
+}
+
+div div p::first-line{
+    color: rgb(0, 47, 255);
+}
+
+div div p::selection{
+    background-color: rgb(153, 173, 40);
+}
