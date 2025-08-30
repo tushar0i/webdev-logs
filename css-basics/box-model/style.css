@@ -1,0 +1,29 @@
+div{
+    height: 200px;
+    width: 1000px;
+    background-color: aquamarine;
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: brown; */
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border: 7px solid brown;
+    border-bottom: 5px dashed black;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    color: rgb(240, 8, 8);
+    font-weight: bold;
+    border: 3px solid rgb(25, 14, 90);
+    background-color: rgb(39, 156, 211);
+    border-radius: 20px;
+    padding: 10px 20px 10px;  
+    margin-left: 50px;
+}
+/* padding , margin
+top bottom | left right , top | left right | bottom , top | right | bottom | left  */
