@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Relative units css</title>
+</head>
+<body>
+    <div class="one" id="outer">
+        this is the font in the outer div
+        <div class="two" id="inner">
+            this is the font in the inner div
+        </div> 
+    </div>
+<hr>
+    <section id="sec1">
+        section start 5px
+        <div class="div1">
+            div 1 10px
+            <div class="div1" >
+                div 2 20px
+                <div class="div1">
+                    div 3 40px
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="sec2">
+        section
+        <div class="div2">
+            div 
+            <div class="div2">
+                div 
+                <div class="div2">
+                    div
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
