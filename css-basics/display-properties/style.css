@@ -1,0 +1,54 @@
+h1,
+h2{
+    display: inline; 
+    background-color:lightblue;
+}
+
+span{
+    background-color: lightgreen;
+}
+
+.test1 {
+    border: 3px solid  red;
+    height: 200px;
+    width: 100px;
+    padding: 20px; 
+    margin: 20px 35px;
+    /* in an in-line element the padding & margin is inplimented in left and right not at the top and the bottom overlaps with the content */
+}
+
+.test2 {
+    display: block;
+    border: 3px solid  red;
+    height: 200px;
+    width: 300px;
+    padding: 20px; 
+    margin: 20px 35px;
+}
+
+.test3 {
+    height:50px;
+    width: 50px;
+    padding: 10px;
+    border: 3px dashed lightseagreen;
+    background-color: lightpink;
+    margin: 20px;
+    display: inline;
+    /* we can see that only margin in left&right and padding in all sides has taken effect , height & width has no effect  */
+}
+
+.test4 {
+    height:50px;
+    width: 50px;
+    padding: 30px;
+    border: 3px dashed lightseagreen;
+    background-color: lightpink;
+    margin: 20px;
+    display: inline-block;
+    /* we use in line block so the css work in case like above */
+}
+
+#test4 {
+    display: none; 
+    /* used to hide the element */
+}
