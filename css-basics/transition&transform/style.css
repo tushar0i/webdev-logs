@@ -1,0 +1,53 @@
+#outer1 {
+    height: 300px;
+    width: 300px;
+    background-color: lightgreen;
+    opacity: 70%;
+}
+
+#inner1 {
+    font-size: .75em;
+    height: 50%;
+    width: 50%;
+    background-color: rgba(165, 42, 42, 0.517);
+    margin-left: 20%;
+}
+
+#inner1 h2 {
+    opacity: 0%;
+}
+
+#test0 {
+    height: 200px;
+    width: 200px;
+    border-radius: 35%;
+    background-color: rgb(169, 131, 204);
+
+    border: 4px solid;
+    transition-duration: 1s;
+}
+
+#test0:hover {
+    border: 4px solid;
+    border-radius: 0%;
+    background-color: rgb(127, 62, 188);
+
+}
+
+#test1 {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+    margin: 20px auto;
+    border: 3px solid;
+    border-radius: 20px;
+    transition: width 1s ease-in-out .3s;
+
+    /* property-name | duaration | timing-funtion | delay */
+}
+
+#test1:hover {
+    width: 100px;
+    margin-top: 40px;
+    background-color: rgb(61, 146, 108);
+}
