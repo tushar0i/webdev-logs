@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="theme-link" rel="stylesheet" href="light.css">
+    <title>Profile-cards</title>
+</head>
+
+<body>
+    <section>
+
+        <div id="one">
+            <div id="img" class="one">
+            </div>
+            <div class="dtl">
+                <h3>Pallav Something</h3>
+                <h4>Data analyst</h4>
+            </div>
+        </div>
+        <div id="two">
+            <div id="img" class="two">
+
+            </div>
+            <div class="dtl">
+                <h3>Raj Something</h3>
+                <h4>Softwere developer</h2>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <button onclick="toggleTheme()" >change the color theme</button>
+
+<script>
+    function toggleTheme() {
+      let theme = document.getElementById("theme-link");
+
+      if (theme.getAttribute("href") === "light.css") {
+        theme.setAttribute("href", "dark.css"); 
+      } else {
+        theme.setAttribute("href", "light.css"); 
+      }
+    }
+  </script>
+
+</body>
+
+</html>
