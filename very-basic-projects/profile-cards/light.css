@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+section > div {
+    display: inline-block;
+    height: 220px;
+    width: 150px;
+    /* border: 2px solid black; */
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(230, 234, 238);
+    box-shadow: 0px 2px 10px rgb(78, 75, 75);
+    /* x-offset y-offset blur-radius color  */
+}
+section > div:hover{
+    transition: 100ms ease-in 0s;
+    box-shadow: 0px 2px 11px rgb(36, 35, 35);
+}
+section #img {
+    height: 120px;
+    width: inherit;
+    background-color: rgb(200, 196, 196);
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+section #img.one {
+    background-image: url(/very-basic-projects/profile-cards/src/img1.png);
+    background-size: cover;
+}
+
+section #img.two {
+    background-image: url(/very-basic-projects/profile-cards/src/img2.png);
+    background-size: cover;
+}
+
+.dtl>h3{
+    text-align: center;
+}
+
+.dtl>h4 {
+    text-align: center;
+}
