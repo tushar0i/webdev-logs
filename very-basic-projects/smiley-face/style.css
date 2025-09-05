@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(225, 225, 225);
+}
+
+#cir {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(222, 178, 44);
+    border-radius: 50%;
+    margin: 0px auto;
+}
+
+#eye {
+
+    height: 17%;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative;
+    top: 33%;
+}
+
+
+
+.left {
+    height: 100%;
+    width: 10%;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 25%;
+    display: inline-block;
+}
+
+.right {
+    height: 100%;
+    width: 10%;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    display: inline-block;
+}
+
+.left:hover,
+.right:hover {
+    border-radius: 0px;
+    height: 25%;
+}
+
+#smi {
+    height: 10%;
+    width: 50%;
+    background-color: brown;
+    position: relative;
+    top: 55%;
+    margin: 0 auto;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+
+}
