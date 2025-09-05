@@ -1,0 +1,46 @@
+#container {
+    border: 3px solid black;
+    height: 400px;
+    width: 80%;
+    margin: 10px auto;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+    font-size: 2em;
+    width: 200px;
+    height: 200px;
+}
+
+#V {
+background-color: blueviolet;
+}
+
+#I {
+    background-color: indigo;
+}
+
+#B {
+    background-color: blue;
+}
+
+#G {
+    background-color: green;
+}
+#Y {
+    background-color: yellow;
+}
+#O {
+    background-color: orange;
+}
+#R {
+    background-color: red;
+}
