@@ -1,0 +1,49 @@
+#container {
+    border: 3px solid black;
+    height: 300px;
+    width: 80%;
+    margin: 10px auto;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    flex-wrap: nowrap; /*default*/
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse; /*reverse along cross axis*/
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+    font-size: 2em;
+    width: 100px;
+    height: 100px;
+}
+
+#V {
+background-color: blueviolet;
+}
+
+#I {
+    background-color: indigo;
+}
+
+#B {
+    background-color: blue;
+}
+
+#G {
+    background-color: green;
+}
+#Y {
+    background-color: yellow;
+}
+#O {
+    background-color: orange;
+}
+#R {
+    background-color: red;
+}
