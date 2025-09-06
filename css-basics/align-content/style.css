@@ -1,0 +1,64 @@
+#container {
+    border: 3px solid black;
+    height: 300px;
+    width: 90%;
+    margin: 10px auto;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly;
+    align-content: baseline;
+    /* works along the cross axis */
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+    font-size: 2em;
+    width: 150px;
+    height: 100px;
+}
+
+#V {
+    background-color: blueviolet;
+}
+
+#I {
+    background-color: indigo;
+    height: 20px;
+    color: white;
+    font-size: 1em;
+}
+
+#B {
+    background-color: blue;
+}
+
+#G {
+    background-color: green;
+}
+
+#Y {
+    background-color: yellow;
+    height: 100px;
+    font-size: 3em;
+}
+
+#O {
+    background-color: orange;
+}
+
+#R {
+    background-color: red;
+}
