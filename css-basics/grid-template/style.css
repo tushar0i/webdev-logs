@@ -10,6 +10,9 @@ h2 {
     grid-template-rows: 90px 90px 90px 90px ;
     /* grid-template-columns: auto auto auto ; not prefer to use  */
     grid-template-columns: 120px 120px 120px ;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr /* = repeat(5,1fr)*/ ;
+
 }
 #box {
     height: 70px;
