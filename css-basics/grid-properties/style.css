@@ -1,0 +1,60 @@
+h2 {
+    text-align: center;
+}
+
+#container {
+    height: 500px;
+    width: 600px;
+    background-color: beige;
+    display: grid;
+    /* by default grid is a block item  */
+    display: inline-grid;
+    grid-template-rows:repeat(3,1fr)  ;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: end;
+    place-items: center;
+}
+
+#ext {
+    background-color: pink;
+    border: 3px solid black;
+    text-align: center;
+    height: 60px;
+    width: 80px;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+#box {
+    background-color: pink;
+    border: 3px solid black;
+    text-align: center;
+    height: 60px;
+    width: 80px;
+    font-size: 1.5em;
+}
+
+#box.green {
+    background-color: greenyellow;
+    place-self: end;
+}
+
+#box.red {
+    background-color: red;
+    justify-self: end;
+    align-self: start ;
+}
+
+#box.blue {
+    background-color: lightblue;
+    
+}
+
+#box.orange {
+    background-color: orange;
+}
+
+#box.yellow {
+    background-color: yellow;
+}
