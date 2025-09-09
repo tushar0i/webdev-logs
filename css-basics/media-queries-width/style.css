@@ -1,0 +1,28 @@
+#box {
+    height: 40px;
+    width: 100%;
+}
+
+@media (width: 400px) {
+    #box{
+        background-color: aqua;
+    }
+}
+
+@media (min-width:500px) {
+    #box{
+        background-color: yellow;
+    }
+}
+
+@media (max-width:500px) {
+    #box{
+        background-color: peru;
+    }
+}
+
+@media (min-width:200px) and (max-width:400px) {
+     #box{
+        background-color: rgb(47, 196, 42);
+    }
+}
