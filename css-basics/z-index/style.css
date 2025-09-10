@@ -1,0 +1,32 @@
+#_1{
+    height: 500px;
+    width: 500px;
+    background-color: blueviolet;
+    /* we can't define z-index: for static and default position ; */
+}
+
+#_2 {
+    height: 300px;
+    width: 200px;
+    background-color: aquamarine;
+    position: relative;
+    left: 200px;
+    z-index: 2;
+    /* big the z-index above the element */
+}
+
+#_3 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(21, 239, 43);
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+    z-index: 1;
+}
+
+/* the element whose property is define late will come on top  */
+
+
+
+
