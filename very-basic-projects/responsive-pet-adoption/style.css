@@ -17,7 +17,8 @@ h1{
     /* background-color: mediumseagreen; */
     /* width: 95%; */
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
 
 }
 
@@ -67,4 +68,10 @@ h1{
     margin-left: 10px;
     font-size: 1.2em;
     text-align: justify;
+}
+
+@media (max-width:1407px) {
+    #container {
+        flex-wrap: wrap;
+    }
 }
