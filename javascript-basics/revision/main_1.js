@@ -118,3 +118,21 @@ function findProduct (a ,b){
 }
 const result = findProduct(2054,7042);
 console.log(result); 
+
+// function passed as an Arguments
+
+function sum (num1, num2, fnToCall, delay) {
+    let result = num1 + num2 ;
+    console.log("processing");
+    fnToCall(result, delay);
+}
+
+function displayResult (data) {
+    console.log("Result of the sum is : "+data);
+}
+
+function displayResultPassive (data) {
+    console.log("Sum's result is : "+data);
+}
+
+const ans = sum(209, 50843, displayResultPassive,2) ; // we have passed a function as an argument which is called callback
