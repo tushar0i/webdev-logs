@@ -3,7 +3,7 @@ console.log("Something I want to print");
 
 // var --> we don't use then now
 
-var a = 1; 
+var a = 1;
 a = 500;
 console.log(a);
 
@@ -25,17 +25,17 @@ console.log(age);
 let myName = "Tushar";
 let isStudent = true;
 
-console.log("This person name is "+ myName+ " and his age is " + age );
+console.log("This person name is " + myName + " and his age is " + age);
 
 if (isStudent == true) {
     console.log(myName + " is a student");
 } else {
-    console.log(myName+" is not a student");
+    console.log(myName + " is not a student");
 }
 
 // Loops
 let someNumber = 0;
-for( let i = 0; i<=1000 ; i++){
+for (let i = 0; i <= 1000; i++) {
     someNumber = someNumber + i;
 }
 
@@ -43,18 +43,78 @@ console.log(someNumber);
 
 // Arrays and Objects
 
-let userNames = ["tushar","puneet","rahul","manmohan","nikki"] ;
+let userNames = ["tushar", "puneet", "rahul", "manmohan", "nikki"];
 
-for (let i=0;i<userNames.length;i++){
+for (let i = 0; i < userNames.length; i++) {
     console.log(userNames[i]);
 }
 
-let ages = [20,22,40,30,21,51,33,45,23,44];
+let ages = [20, 22, 40, 30, 21];
 let numberOfUser = ages.length;
-for (let i = 0 ; i < numberOfUser ; i++){
-    if (ages[i]%2 == 0){
+for (let i = 0; i < numberOfUser; i++) {
+    if (ages[i] % 2 == 0) {
         console.log(ages[i]);
     }
 }
 
+// this is a list of objects 
+let allUsers = [{
+    userName: "tushar",
+    age: 20,
+    gender : "male",
+    metadata : {
+        country : "india",
+        state : "mp",
+    },
+}, {
+    userName: "puneet",
+    age: 22,
+    gender : "male",
+    metadata : {
+        country : "india",
+        state : "mp",
+    },
+}, {
+    userName: "rahul",
+    age: 40,
+    gender : "male",
+    metadata : {
+        country : "india",
+        state : "bh",
+    },
+}, {
+    userName: "manmohan",
+    age: 30,
+    gender : "male",
+    metadata : {
+        country : "india",
+        state : "tn",
+    },
+}, {
+    userName: "nikki",
+    age: 21,
+    gender : "female",
+    metadata : {
+        country : "india",
+        state : "mp",
+    },
+}];
 
+for (let i = 0; i<allUsers.length ; i++){
+    if(allUsers[i]["gender"] == "female"){
+        console.log(allUsers[i]["userName"]);
+        console.log(allUsers[i].metadata.state);
+        console.log(allUsers[i]["metadata"]["state"]);
+    }
+}
+
+
+
+// Functions 
+
+function findProduct (a ,b){
+    const productValue = a * b;
+    return productValue;
+}
+const result = findProduct(2054,7042);
+console.log(result); 
