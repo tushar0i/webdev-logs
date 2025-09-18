@@ -53,3 +53,33 @@ console.log(parseFloat("100.283pxaahsdg"));
 console.log(parseFloat("834"));
 
 
+// ARRAYS  
+let arr1 = [1,2,5,4];
+console.log("this is the initial array",arr1);
+
+// push
+arr1.push(10);
+console.log("added at end",arr1);
+
+// pop 
+arr1.pop();
+console.log("removed from end",arr1);
+
+// shift
+arr1.shift();
+console.log("removed front front",arr1);
+
+// unshift
+arr1.unshift(10);
+console.log("added at front",arr1);
+
+// concat
+let arr2 = [5,6,7,8,11];
+let arr3 = arr1.concat(arr2);
+console.log(arr3);
+
+function logElements(str){
+    console.log(str);
+}
+
+arr3.forEach(logElements);
