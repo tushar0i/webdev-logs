@@ -78,8 +78,11 @@ let arr2 = [5,6,7,8,11];
 let arr3 = arr1.concat(arr2);
 console.log(arr3);
 
+// foreach
 function logElements(str){
     console.log(str);
 }
 
 arr3.forEach(logElements);
+
+// more later 
