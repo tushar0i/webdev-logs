@@ -1,0 +1,3 @@
+this is an example file with
+some random, words so pls ignore this 
+someText.txt;
