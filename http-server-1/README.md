@@ -28,7 +28,7 @@ npm run dev
 ### 4. Open in browser
 App will run on:
 ```
-http://localhost:3000
+http://localhost:3001
 ```
 
 ## 📂 Project Structure
