@@ -9,7 +9,7 @@ A simple Node.js Express application. It is just a example/practice kind of thin
 git clone https://github.com/tushar0i/webdev-logs.git
 cd http-server-1
 ```
-    or directly download the zip file through this <a href="https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTushar0i%2Fwebdev-logs%2Ftree%2Fmain%2Fhttp-server-1" >link</a>
+or directly download the zip file through this <a href="https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTushar0i%2Fwebdev-logs%2Ftree%2Fmain%2Fhttp-server-1" >link</a>
 
 ### 2. Install dependencies
 ```bash
