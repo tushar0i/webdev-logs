@@ -1,6 +1,7 @@
 ## bash commands 
 
 A directory is just a technical term for a folder.
+We can combine multipal commands.
 
 1. print working directory
 ```bash
@@ -15,6 +16,14 @@ cd ../../.. # we can use multiple at a time
 3. list file&folders
 ```bash
 ls # print files and folder present in current working dir
+ls .. # print file&dir present in current working dir
+ls -l dir # print files and folder present in dir with additional details
+ls -la dir # it also includes hidden files
+ls -r dir # it reverses the order 
+ls -R dir # print files and dir present in dir and their sub dir's too
+ls -t # print file and dir sorted by last modif first
+ls -lR | grep .ext  # print all the files with .ext present in dir including all sub dir 
+ls *.ext # using it at an dir leval
 ```
 4. make directory
 ```bash
