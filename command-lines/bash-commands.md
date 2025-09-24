@@ -28,6 +28,8 @@ ls *.ext # using it at an dir leval
 4. make directory
 ```bash
 mkdir name # make's a folder with name in current working dir
+mkdir name && cd name # create a new dir and make it current working dir 
+mkdir -p dir/subdir1  # make a sundir1 in dir 
 ```
 5. create file
 ```bash
@@ -36,11 +38,15 @@ touch name.ext # create a file with name and extension
 6. read file content
 ```bash
 cat name.ext # opens the file in termainal
+cat > name.ext # add content via terminal to file
+cat >> name.ext # used to append content in the file 
 ```
-7. move file or dir
+7. move file or dir & rename
 ```bash
 mv filename path # moves file to a dir-path 
+mv filename1 path/filename2 # moves file to a dir-path and rename it 
 mv dirname path # moves a dir to a dir-path
+mv filename1 filename2 # rename the file 
 ```
 8. copy file or dir
 ```bash
@@ -53,5 +59,14 @@ vi filename # open the file in editior press i of go in insertmode
 :q! # quit
 :wq! # save and quit 
 ```
-
+10. remove file or dir 
+```bash
+rm file # remove/delete the file
+rm -r dir # remove the dir 
+```
+11. history & clear
+```bash
+history # print the whole history of command that we have used
+clear # clears the terminal 
+```
 will add more as I learn
