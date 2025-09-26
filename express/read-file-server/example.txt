@@ -1,0 +1,2 @@
+this is the example.txt file created by tushar0i at Sep 26 17:29 using cat command in terminal
+at this moment I am feeling very happy 
