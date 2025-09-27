@@ -69,4 +69,28 @@ rm -r dir # remove the dir
 history # print the whole history of command that we have used
 clear # clears the terminal 
 ```
+12. adding and removing permissions
+```
+  -   ---    ---    ---     there are the 10 slots that appear's first when
+  |    |      |      |      we use ls -l these are the permission
+  d   rwx    rwx    rwx     d - for directory if not then blank
+     owner  group  other    r - read(4), w - write(2), x - exciute(1)
+
+```
+``` bash 
+# symbolic way
+chmod u/g/o +/- rwx file/dirName # add and remove permission from a file
+# exampl e:
+chmod g+w file.txt   # add write permission for group
+chmod o-r file.txt   # remove read permission from others
+
+# numerical way
+chmod ijk file/dirName  # ijk are numbers i - user , j - group , k - other 
+# 1 - x , 2 - w , 3 - wx , 4 - r , 5 - rx , 6 - rw , 7 - rwx
+# example :
+chmod 764 example.txt
+# user = rwx (7)
+# group = rw  (6)
+# others = r  (4)
+```
 will add more as I learn
