@@ -40,6 +40,10 @@ touch name.ext # create a file with name and extension
 cat name.ext # opens the file in termainal
 cat > name.ext # add content via terminal to file
 cat >> name.ext # used to append content in the file 
+head -i fileName # print the first i (default value 10) lines of the file where i is a number
+tail -i fileName # print last i (default value 10) lines of the file whare i is a number
+tail -n +i fileName | head -j # print j lines starting from ith line
+wc fileName # print number of line, number of words, number of char in a file
 ```
 7. move file or dir & rename
 ```bash
@@ -93,4 +97,17 @@ chmod 764 example.txt
 # group = rw  (6)
 # others = r  (4)
 ```
+13. occurance of something
+```bash
+grep "something" file1.txt  # print all the lines where something is present in file.txt
+grep "something" file.txt | wc # number of somthing present in file.txt, word , char
+grep -c "something" file.txt # print the number of line what something is present
+grep -h "something" file1.txt file2.txt # print all the lines where something is present in both the files
+grep -hn "something" file1.txt  # print all the lines where something is present in the file with the row number in front
+grep -hi "something" file.txt # print all the lines where something(ignores the cases) is present in the files
+grep -hir "something" dir-path # print the the occuance of somthing(ignores the cases) in the given dir-path
+grep -hiw "something" file.txt # print the occurance of word"something"(ignores the cases) in file.txt
+grep -hino "something" file.txt # print the occurance of something(ignoring the case) with there row number
+```
+
 will add more as I learn
