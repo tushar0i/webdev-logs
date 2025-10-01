@@ -109,5 +109,11 @@ grep -hir "something" dir-path # print the the occuance of somthing(ignores the 
 grep -hiw "something" file.txt # print the occurance of word"something"(ignores the cases) in file.txt
 grep -hino "something" file.txt # print the occurance of something(ignoring the case) with there row number
 ```
-
-will add more as I learn
+14. variables & shell script file
+```bash
+# bash script file ends with .sh
+variableName="something" # this is how we declare & assign a variable in bash
+echo "$variableName we all adore" # print the the string with variables
+bash script.sh #  exciute script.sh 
+```
+will add more as I learn 
