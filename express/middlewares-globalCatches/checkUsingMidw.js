@@ -37,7 +37,7 @@ function kidneyMiddleware(req, res, next) {
 let value = 0;
 function calculateReq(req,res,next){
     value++;
-    console.log(value);
+    console.log("Request count : "+value);
     next();
 };
 
@@ -62,6 +62,20 @@ app.get('/example', (req, res, next) => { // just an example that we can use mid
 app.get('/health-checkup', userMiddleware, kidneyMiddleware, (req,res) => {
     res.json({
         msg: "thing seems good till now"
+    });
+});
+
+
+// this is global catches 
+// of some  error comes then the end use will get this as an output 
+// error handling middlewares
+let errorCount = 0;
+app.use((err,req,res,next)=>{
+    errorCount++;
+    console.log("Error count : "+errorCount);
+    console.error(err);//logs the error for debugging
+    res.status(500).json({
+        msg:"somethign is up with the server"
     });
 });
 
