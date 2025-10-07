@@ -1,0 +1,75 @@
+#mainbody{
+    background-color: rgb(154, 220, 61);
+    width: 70%;
+    height: 500px;
+    margin: 50px auto;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.224);
+    font-family: "Alan Sans", sans-serif;
+}
+#top {
+    padding: 35px 0px;
+    text-align: center;
+}
+#subbody {
+    background-color: rgb(241, 255, 176);
+    width: 70%;
+    height: 60%;
+    margin:  auto;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.224);
+   
+}
+#input {
+    width: 80%;
+    height: 50%;
+    margin: auto ;
+    
+}
+.inpnum{
+   
+    font-size: large;
+    font-weight: 600;
+}
+.inpnum input{
+    margin-top: 30px;
+    /* color:aliceblue; */
+    font-size: large;
+    font-weight: 600;
+    /* background-color: rgb(129, 206, 195); */
+}
+
+#btn{
+    height: 10%;
+    width: 35%;
+    margin:30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#press{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.594);
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.22);
+    
+}
+
+#press:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+}
+#press:active{
+    background-color: rgb(255, 255, 255 ,0.594);
+    color: rgba(0, 0, 0);
+}
+
+#answer{
+     font-size: x-large;
+    font-weight: 600; 
+    text-align: center;
+}

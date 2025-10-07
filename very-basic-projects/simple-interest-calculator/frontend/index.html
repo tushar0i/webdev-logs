@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intetest calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mainbody">
+        <div>
+            <h1 id="top">Simple interest calculator</h1>
+        </div>
+        <div id="subbody">
+            <div id="input">
+                <div class="inpnum">
+                    Principal : 
+                    <input type="text" id="pa" placeholder="principal amount">
+                </div>
+                <div class="inpnum">
+                    Interest Rate : 
+                    <input type="text" id="ir" placeholder="interest rate">
+                </div>
+                <div class="inpnum">
+                    Time : 
+                    <input type="text" id="ti" placeholder="time">
+                </div>
+            </div>
+            <div id="btn">
+                <button onclick="calculateInterest()" type="button" id="press">Calculate</button>
+            </div>
+            <div id="answer">Answer : </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
