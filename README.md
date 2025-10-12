@@ -8,14 +8,15 @@ The goal of this repo is to document my progress and serve as a reference for an
 ## 📂 Repository Structure
 
 The repo is organized into folders based on topics:
-
 - `html-basics/` → Fundamentals of HTML  
 - `css-basics/` → Core concepts of CSS  
 - `javascript-basics/` → Beginner JavaScript practice  
 - `very-basic-projects/` → Mini projects combining HTML, CSS, and JS  
-- `command-line/` → Command that are generally used
-
-
+- `command-line/` → Commonly used commands and scripts  
+- `express/` → Practice with Express.js framework  
+- `react/` → Practice with React.js library  
+- `database-mdb/` → Working with MongoDB
+- 
 ## ⚡ How to Use
 
 1. Clone this repository:
@@ -35,15 +36,14 @@ The repo is organized into folders based on topics:
 - **HTML5**
 - **CSS3**
 - **JavaScript**
+- **Node.js**
+- **Express**
+- **MongoDB**
 
 
 ## 🌱 Learning Journey
 
 This repo will keep growing as I learn more about:
-- Responsive Design  
-- JavaScript DOM Manipulation  
-- Animations & Transitions  
-- Frontend Frameworks  
 - Full MERN Stack (MongoDB, Express, React, Node.js)  
 
 
