@@ -18,6 +18,9 @@ function App() {
 
     
     return (
+        // this thing can only return a top level xml
+        // reason - makes it easy to do reconciliation
+        // this is why we have included <> and </>
         <>
             <div>
                 <button onClick={() => setCount(function (count) {
