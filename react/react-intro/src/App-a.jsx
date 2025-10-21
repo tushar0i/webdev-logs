@@ -4,7 +4,7 @@ import './App.css'
 
 let count = 4
 
-function App() {
+function App_a() {
 
     const [todos, setTodo] = useState([{
         id: 1,
@@ -49,4 +49,4 @@ function Todo({ title, description }) {
 }
 
 // some thing we all adore one thing we dieing for nothing but pain stuck in this game searching for fortune and gain 
-export default App
+export default App_a
