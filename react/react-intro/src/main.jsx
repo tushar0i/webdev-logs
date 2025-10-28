@@ -7,6 +7,7 @@ import App_b from './App-b.jsx'
 import App_c from './App-c.jsx'
 import App_d from './App-d.jsx'
 import App_e from './App-e.jsx'
+import App_f from './App-f.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
     {/* <App_b /> */}
     {/* <App_c/> */}
     {/* <App_d/> */}
-    <App_e/>
+    {/* <App_e/> */}
+    <App_f/>
   </StrictMode>,
 )
