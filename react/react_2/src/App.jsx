@@ -1,5 +1,5 @@
 // Client Side Routing
-import React from "react"
+import React,{Suspense} from "react"
 import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom" // we will do routing with next.js in future
 const Landing = React.lazy(()=> import("../Components/Landing"))
 const Dashboard = React.lazy(()=>import("../Components/Dashboard"))
@@ -10,8 +10,12 @@ function App() {
                     <BrowserRouter>
                     <Appbar/>
                         <Routes>
-                            <Route path="/dashboard" element={<Dashboard />} />
-                            <Route path="/" element={<Landing />} />
+                            <Route path="/dashboard" element={
+                                <Suspense fallback={"loadinggg thhiinngggssss......."}><Dashboard/></Suspense>
+                            } />
+                            <Route path="/" element={
+                                <Suspense fallback={"loadinggg thhiinngggssss......."}><Landing/></Suspense>
+                                } />
                         </Routes>
                     </BrowserRouter>
             </div>
