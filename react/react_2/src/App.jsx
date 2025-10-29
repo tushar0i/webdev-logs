@@ -1,8 +1,8 @@
 // Client Side Routing
+import React from "react"
 import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom" // we will do routing with next.js in future
-import { Landing } from "../Components/Landing"
-import { Dashboard } from "../Components/Dashboard"
-
+const Landing = React.lazy(()=> import("../Components/Landing"))
+const Dashboard = React.lazy(()=>import("../Components/Dashboard"))
 function App() {
     return (
         <>

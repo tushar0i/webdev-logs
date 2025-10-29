@@ -1,5 +1,5 @@
-export function Dashboard(){
-
+export default function Dashboard(){
+    console.log("Dashboard page")
     return (
         <>
         <div>

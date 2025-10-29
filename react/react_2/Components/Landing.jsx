@@ -1,5 +1,5 @@
-export function Landing(){
-
+export default function Landing(){
+    console.log("Landing page")
     return (
         <>
         <div>
