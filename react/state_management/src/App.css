@@ -1,0 +1,23 @@
+.item {
+  display: grid;
+  grid-template-columns: 70px 1fr 80px 120px 100px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.itemImage {
+  width: 60px;
+  border-radius: 8px;
+}
+
+.qIncDec button {
+  margin: 0 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  background-color: #e5e7eb;
+  cursor: pointer;
+}
+
