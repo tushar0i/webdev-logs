@@ -10,6 +10,9 @@
  1. created a store which contains store.js and all the slices in my case cartSlice.js
  2. created components for the app itemsList and billSummary
  3. wrap the main app component in provider which includes the store in it.
+ 4. create the initialState of the app in cartSlice.js
+ 5. created a cart Slice in cartSlice.js with all the essential reducers(functions)
+
 
 
 ... ignore \
