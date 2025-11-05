@@ -1,3 +1,5 @@
+import { Signin } from "./Signin"
+import { SearchBox } from "./SearchBox"
 
 export const AppBar = () =>{
 
@@ -7,10 +9,10 @@ export const AppBar = () =>{
             <img src="/YouTubelight.svg" className="w-31 flex inline-flex items-center pt-2" alt="" />
         </div>
         <div>
-            Search box
+            <SearchBox></SearchBox>
         </div>
         <div>
-            Sign in
+            <Signin></Signin>
         </div>
     </div> 
     </>)
