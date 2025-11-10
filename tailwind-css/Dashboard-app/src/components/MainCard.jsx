@@ -4,7 +4,7 @@ const MainCard = ({
     title,
 }) => {
     return (<>
-        <div className="bg-[#126eb4] shadow-lg/10  rounded-lg m-2">
+        <div className="bg-[#126eb4] shadow-lg/10  rounded-lg m-2 hover:bg-[#0e4f82]">
             <div className="p-4">
                 <div className="flex text-white text-lg pb-4">
                     {title}
